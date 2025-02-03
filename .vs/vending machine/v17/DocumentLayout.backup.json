@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\object programming\\vending machine\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AEA3475E-1DEE-4CCF-B9F8-B2B54D985E9A}|WinFormsApp1\\WinFormsApp1.csproj|d:\\object programming\\vending machine\\winformsapp1\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEA3475E-1DEE-4CCF-B9F8-B2B54D985E9A}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEA3475E-1DEE-4CCF-B9F8-B2B54D985E9A}|WinFormsApp1\\WinFormsApp1.csproj|d:\\object programming\\vending machine\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEA3475E-1DEE-4CCF-B9F8-B2B54D985E9A}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEA3475E-1DEE-4CCF-B9F8-B2B54D985E9A}|WinFormsApp1\\WinFormsApp1.csproj|D:\\object programming\\vending machine\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AEA3475E-1DEE-4CCF-B9F8-B2B54D985E9A}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\object programming\\vending machine\\WinFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
+              "ToolTip": "D:\\object programming\\vending machine\\WinFormsApp1\\Form1.cs",
+              "RelativeToolTip": "WinFormsApp1\\Form1.cs",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAmwMsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T13:27:15.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\object programming\\vending machine\\WinFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
+              "ToolTip": "D:\\object programming\\vending machine\\WinFormsApp1\\Form1.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T16:00:51.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Item.cs",
+              "DocumentMoniker": "D:\\object programming\\vending machine\\WinFormsApp1\\Item.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Item.cs",
+              "ToolTip": "D:\\object programming\\vending machine\\WinFormsApp1\\Item.cs",
+              "RelativeToolTip": "WinFormsApp1\\Item.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAmwBwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T16:14:27.987Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
