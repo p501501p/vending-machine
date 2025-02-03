@@ -223,6 +223,7 @@ Attributes:
 Water: ปริมาณน้ำ
 Choco: ปริมาณช็อกโกแลต
 หน้าที่: เก็บข้อมูลสูตรสำหรับเครื่องดื่มช็อกโกแลต
+
 2. คลาสสำหรับการแปลงข้อมูลและจัดการสต็อกวัตถุดิบ
 ConInt1
 
@@ -243,6 +244,7 @@ Method: StockUp1(INStock stock, TextBox stock1, TextBox stock2, TextBox stock3, 
 อ่านข้อมูลปริมาณวัตถุดิบจาก TextBox
 แปลงเป็นตัวเลขและรวมกับสต็อกใน INStock
 คืนค่าเป็น tuple ของสต็อกที่อัปเดต (StockWater, StockCof, StockMilk, StockChocolate)
+
 3. คลาสสำหรับการคำนวณวัตถุดิบที่ใช้ในการสั่งซื้อเครื่องดื่ม
 BuyDrink1
 
