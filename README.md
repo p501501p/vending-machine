@@ -225,6 +225,7 @@ Choco: ปริมาณช็อกโกแลต
 หน้าที่: เก็บข้อมูลสูตรสำหรับเครื่องดื่มช็อกโกแลต
 
 2. คลาสสำหรับการแปลงข้อมูลและจัดการสต็อกวัตถุดิบ
+
 ConInt1
 
 Method: convert(TextBox item1, TextBox item2, TextBox item3, TextBox item4)
@@ -232,6 +233,7 @@ Method: convert(TextBox item1, TextBox item2, TextBox item3, TextBox item4)
 รับค่าอินพุตจาก TextBox 4 ตัว
 แปลงค่าเป็น double สำหรับแต่ละส่วนผสม (น้ำ, กาแฟ, นม, ช็อกโกแลต)
 คืนค่าเป็น tuple (INwater, INCof, INMilk, INChocolate)
+
 INStock
 
 Attributes:
@@ -245,7 +247,9 @@ Method: StockUp1(INStock stock, TextBox stock1, TextBox stock2, TextBox stock3, 
 แปลงเป็นตัวเลขและรวมกับสต็อกใน INStock
 คืนค่าเป็น tuple ของสต็อกที่อัปเดต (StockWater, StockCof, StockMilk, StockChocolate)
 
+
 3. คลาสสำหรับการคำนวณวัตถุดิบที่ใช้ในการสั่งซื้อเครื่องดื่ม
+
 BuyDrink1
 
 Method: BuyDrink(TextBox item1, TextBox item2)
@@ -254,6 +258,7 @@ Method: BuyDrink(TextBox item1, TextBox item2)
 แปลงเป็นตัวเลขและหักจำนวนวัตถุดิบ (หักกาแฟ 20 หน่วย และน้ำ 300 หน่วย)
 คืนค่าเป็น tuple (OutWater, OutCof, OutChocolate)
 (ในโค้ด ช็อกโกแลตถูกคำนวณให้เท่ากับค่ากาแฟหลังหัก)
+
 BuyDrink02
 
 Method: BuyDrink2(TextBox item1, TextBox item2, TextBox item3)
