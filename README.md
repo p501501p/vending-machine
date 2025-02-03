@@ -1,15 +1,5 @@
 ![image](https://github.com/user-attachments/assets/fa1b0be2-907f-4c65-bc7a-5c7a1cf2fdb5)
 
-using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace WinFormsApp1
-
-{
 
     public class BlackCoffee
     {
@@ -89,7 +79,7 @@ namespace WinFormsApp1
     public class BuyDrink1
     {
         public (double OutWater, double OutCof, double OutChocolate) BuyDrink(TextBox item1, TextBox item2)
-{
+
             string inCof = item2.Text;  // item2 = กาแฟ
             string inWater = item1.Text;
             string inChoco = item2.Text;// item1 = น้ำ
@@ -121,7 +111,7 @@ namespace WinFormsApp1
             
 
             return (OutWater,OutCof,OutChoco); // ✅ คืนค่า Tuple
-}
+
     }
     public class BuyDrink02
     {
@@ -204,7 +194,8 @@ namespace WinFormsApp1
     }
 
 
-}
+
+
 
 
 
