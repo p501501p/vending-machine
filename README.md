@@ -1,11 +1,12 @@
 ![image](https://github.com/user-attachments/assets/fa1b0be2-907f-4c65-bc7a-5c7a1cf2fdb5)
 
-
-    public class BlackCoffee
+    
+    public class BlackCoffee   //เก็บ
     {
         public double Water;
-        public double Coffee;
+        public double Coffee; 
     }
+    
     public class Mocca {
         public double Water;
         public double Coffee;
@@ -194,6 +195,70 @@
     }
 
 
+คำอธิบายโครงสร้างและการทำงานของแต่ละคลาส
+1. คลาสสำหรับเก็บข้อมูลสูตรเครื่องดื่ม
+BlackCoffee
+
+Attributes:
+Water: ปริมาณน้ำในเครื่องดื่ม
+Coffee: ปริมาณกาแฟในเครื่องดื่ม
+หน้าที่: เก็บข้อมูลสูตรสำหรับกาแฟดำที่มีเพียงน้ำและกาแฟ
+Mocca
+
+Attributes:
+Water: ปริมาณน้ำ
+Coffee: ปริมาณกาแฟ
+Choco: ปริมาณช็อกโกแลต
+หน้าที่: เก็บข้อมูลสูตรสำหรับ Mocca ซึ่งมีส่วนผสมของน้ำ กาแฟ และช็อกโกแลต
+Latte
+
+Attributes:
+Water: ปริมาณน้ำ
+Coffee: ปริมาณกาแฟ
+Milk: ปริมาณนม
+หน้าที่: เก็บข้อมูลสูตรสำหรับลาเต้ที่ประกอบด้วยน้ำ กาแฟ และนม
+Chocolate
+
+Attributes:
+Water: ปริมาณน้ำ
+Choco: ปริมาณช็อกโกแลต
+หน้าที่: เก็บข้อมูลสูตรสำหรับเครื่องดื่มช็อกโกแลต
+2. คลาสสำหรับการแปลงข้อมูลและจัดการสต็อกวัตถุดิบ
+ConInt1
+
+Method: convert(TextBox item1, TextBox item2, TextBox item3, TextBox item4)
+หน้าที่:
+รับค่าอินพุตจาก TextBox 4 ตัว
+แปลงค่าเป็น double สำหรับแต่ละส่วนผสม (น้ำ, กาแฟ, นม, ช็อกโกแลต)
+คืนค่าเป็น tuple (INwater, INCof, INMilk, INChocolate)
+INStock
+
+Attributes:
+INwater, INCof, INMilk, INChocolate
+หน้าที่: เก็บข้อมูลสต็อกวัตถุดิบที่มีอยู่
+StockUp
+
+Method: StockUp1(INStock stock, TextBox stock1, TextBox stock2, TextBox stock3, TextBox stock4)
+หน้าที่:
+อ่านข้อมูลปริมาณวัตถุดิบจาก TextBox
+แปลงเป็นตัวเลขและรวมกับสต็อกใน INStock
+คืนค่าเป็น tuple ของสต็อกที่อัปเดต (StockWater, StockCof, StockMilk, StockChocolate)
+3. คลาสสำหรับการคำนวณวัตถุดิบที่ใช้ในการสั่งซื้อเครื่องดื่ม
+BuyDrink1
+
+Method: BuyDrink(TextBox item1, TextBox item2)
+หน้าที่:
+รับค่าอินพุตจาก TextBox สำหรับน้ำและกาแฟ
+แปลงเป็นตัวเลขและหักจำนวนวัตถุดิบ (หักกาแฟ 20 หน่วย และน้ำ 300 หน่วย)
+คืนค่าเป็น tuple (OutWater, OutCof, OutChocolate)
+(ในโค้ด ช็อกโกแลตถูกคำนวณให้เท่ากับค่ากาแฟหลังหัก)
+BuyDrink02
+
+Method: BuyDrink2(TextBox item1, TextBox item2, TextBox item3)
+หน้าที่:
+รับค่าอินพุตจาก TextBox สำหรับน้ำ, กาแฟ และนมหรือช็อกโกแลต (ใช้ TextBox ตัวที่ 3สำหรับทั้งสอง)
+แปลงเป็นตัวเลขและหักจำนวนวัตถุดิบ (หักกาแฟ 20, น้ำ 300, และนมหรือช็อกโกแลต 10 หน่วย)
+คืนค่าเป็น tuple (OutWater, OutCof, OutMike, OutChocolate)
 
 
 
